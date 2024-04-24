@@ -1,25 +1,8 @@
 # Desafio Sinqia
-
-1. Implement User Validation:
-  Develop and test a user validation component to 
-ensure that the input data provided by users is valid and secure.
-2. Create Dependency Injection Service:
-  Implement a dependency injection service to allow 
-system components to be easily injected and swapped, promoting 
-loose coupling and testability.
-3. Develop Factory Method:
-  Create a factory method that encapsulates object 
-creation logic, allowing flexibility in creating different types of 
-objects as needed.
-4. Establish Observation Mechanism:
-  Develop an observation mechanism that allows 
-observer objects to be automatically notified of changes in the 
-state of an observed object, promoting asynchronous 
-communication between system components.
-5. Implement Singleton Manager:
-  Create a singleton manager that ensures only one 
-instance of a particular class is created and provides a global 
-access point to that instance throughout the system
+* Responder as perguntas contidas no arquivo "TesteTeorico(Sinqia-Bofa).pdf".
+  R: As respostas para as questões levantas, encontram-se no arquivo "Respostas(Sinqia-Bofa).pdf".
+* Criar um projeto que atenda as demandas contidas no arquivo "TestePratico(Sinqia-Bofa).pdf".
+  R: Realize o download do projeto "BOFAChallenge" e execute o arquivo "BOFAChallenge.sln".
 
 ## Tecnologia
 * .Net Core, versão 8.0
