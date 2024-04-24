@@ -12,6 +12,8 @@ namespace BOFAChallenge.UI.Services
             {
                 string errorMessage = string.Empty;
 
+                result.Errors = result.Errors.DistinctBy(e => e.ErrorMessage).ToList();
+
                 foreach (var error in result.Errors)
                 {
                     errorMessage += $"{error.ErrorMessage}{Environment.NewLine}";
